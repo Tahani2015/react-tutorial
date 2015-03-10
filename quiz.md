@@ -53,7 +53,7 @@ var CommentBox = React.createClass({
 
 ### Q5: How does ``$`` get defined? Is it part of the ReactJS framework?
 
-{{your answer here}}
+{{It is defined in jquery library and it is not part of the ReactJS framework}}
 
 ### Q6: Where does the value of ``this.props.url`` get specified?
 
@@ -117,7 +117,7 @@ var CommentBox = React.createClass({
 
 ### Q10: What is the initial value of ``this.state.data``? How is the initial value specified?
 
-{{your answer here}}
+{{ The initial value of ``this.state.data`` is the unchanged content of the json data object. It is specified within handelCommentSubmit }}
 
 
 ### Q11: What is the new value of ``this.state.data``? How is this new value set?
